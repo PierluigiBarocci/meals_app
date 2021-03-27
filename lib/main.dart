@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
         MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
       },
+      // onUnknownRoute: , usefull for a 404 page
       debugShowCheckedModeBanner: false,
     );
   }
